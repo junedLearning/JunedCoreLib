@@ -22,6 +22,11 @@ public class App
     public boolean zzz(){
         return true;
     }
+    public boolean fofo(){
+        return true;
+    }
+
+
 
 
 
