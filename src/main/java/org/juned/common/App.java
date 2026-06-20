@@ -6,8 +6,23 @@ package org.juned.common;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static String hello(){
+        return "xxx";
     }
+    public static void hello2(){
+        System.out.println("xoxo");
+    }
+
+    public boolean xxx(){
+        return true;
+    }
+    public boolean yyy(){
+        return true;
+    }
+    public boolean zzz(){
+        return true;
+    }
+
+
+
 }

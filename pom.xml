@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.juned.common</groupId>
-  <artifactId>JunedCoreLib</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>junedcorelib</artifactId>
+  <version>1.2.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>JunedCoreLib</name>
@@ -22,4 +22,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Github package</name>
+      <url>
+        https://maven.pkg.github.com/junedLearning/JunedCoreLib
+      </url>
+
+    </repository>
+  </distributionManagement>
 </project>
