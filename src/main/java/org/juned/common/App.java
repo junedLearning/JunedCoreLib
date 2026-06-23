@@ -7,7 +7,7 @@ package org.juned.common;
 public class App 
 {
     public static String hello(){
-        return "xxx";
+        return "xxxyyyy";
     }
     public static void hello2(){
         System.out.println("xoxo");
